@@ -22,7 +22,7 @@ public class sendingMail
         MultiPartEmail email = new MultiPartEmail();
         email.setHostName("smtp.gmail.com");
         email.setSmtpPort(465);
-        email.setAuthenticator(new DefaultAuthenticator("hakan43602@gmail.com", "2548912545390876"));
+        email.setAuthenticator(new DefaultAuthenticator("test@gmail.com", "testpassword123"));
         email.setSSLOnConnect(true);
 
         try
